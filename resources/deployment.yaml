@@ -4,7 +4,7 @@ metadata:
   name: testapi
 spec:
   replicas: 2
-  revisionHistoryLimit: 10
+  revisionHistoryLimit: 8
   selector:
     matchLabels:
       app: testapi
