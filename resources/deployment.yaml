@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: testapi
 spec:
-  replicas: 2
+  replicas: 3
   revisionHistoryLimit: 10
   selector:
     matchLabels:
