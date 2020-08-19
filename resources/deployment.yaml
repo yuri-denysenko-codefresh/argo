@@ -14,7 +14,7 @@ spec:
         app: testapi
     spec:
       containers:
-        - image: olehzahnitko/test:0.0.4
+        - image: olehzahnitko/test
           name: testapi
           ports:
             - containerPort: 1700
