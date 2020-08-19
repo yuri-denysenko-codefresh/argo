@@ -1,0 +1,10 @@
+apiVersion: v3
+kind: Service
+metadata:
+  name: testapi
+spec:
+  ports:
+    - port: 80
+      targetPort: 1700
+  selector:
+    app: testapi
