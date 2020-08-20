@@ -14,7 +14,7 @@ spec:
         app: testapi
     spec:
       containers:
-        - image: olehzahnitko/argocd:1.1.21
+        - image: olehzahnitko/argocd:1.1.22
           name: testapi
           ports:
             - containerPort: 1700
