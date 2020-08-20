@@ -6,6 +6,6 @@ http.createServer(function (req, res) {
 /*
 
 
-cf-argo-plugin process-result olegz-test-local --cf-host=http://local.codefresh.io --cf-token=5f3e42bb73f1334ed0bb0f1b.fd70dad43822e17b1f606b02cd7f7a0b --cf-integration="argo" --pipeline-id=argo/cd --build-id=5f3e42bb73f1334ed0bb0f17
+
 
  */
