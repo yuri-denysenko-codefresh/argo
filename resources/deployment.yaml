@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: testapi
+  name: test-api
 spec:
-  replicas: 1
+  replicas: 4
   revisionHistoryLimit: 6
   selector:
     matchLabels:
-      app: testapi
+      app: test-api
   template:
     metadata:
       labels:
-        app: testapi
+        app: test-api
     spec:
       containers:
         - image: olehzahnitko/argocd:1.1.35
-          name: testapi
+          name: test-api
           ports:
             - containerPort: 1700

@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: testapi
+  name: test-api
 spec:
   ports:
     - port: 80
       targetPort: 1700
   selector:
-    app: testapi
+    app: test-api
