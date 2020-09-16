@@ -1,6 +1,6 @@
 {
   "name": "argo",
-  "version": "1.2.32",
+  "version": "1.2.33",
   "description": "",
   "main": "server.js",
   "scripts": {
