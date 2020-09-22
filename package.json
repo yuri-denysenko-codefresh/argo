@@ -1,7 +1,7 @@
 {
   "name": "argo",
   "version": "1.2.42",
-  "description": "11232sdsd311111",
+  "description": "112",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,4 +17,4 @@
     "url": "https://github.com/olegz-codefresh/argo/issues"
   },
   "homepage": "https://github.com/olegz-codefresh/argo#readme"
-}git
+}
