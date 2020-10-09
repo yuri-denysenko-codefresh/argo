@@ -7,11 +7,11 @@ spec:
   revisionHistoryLimit: 6
   selector:
     matchLabels:
-      app: test-api
+      app: test-api-label
   template:
     metadata:
       labels:
-        app: test-api
+        app: test-api-label
     spec:
       containers:
         - image: olehzahnitko/argocd:1.2.41
