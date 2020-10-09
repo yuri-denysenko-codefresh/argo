@@ -7,4 +7,4 @@ spec:
     - port: 80
       targetPort: 1700
   selector:
-    app: test-api
+    app: test-api-label
