@@ -3,9 +3,6 @@ kind: Job
 metadata:
   name: test-api
 spec:
-  selector:
-    matchLabels:
-      app: test-api
   template:
     metadata:
       labels:
