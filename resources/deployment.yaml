@@ -3,8 +3,6 @@ kind: Job
 metadata:
   name: test-api
 spec:
-  replicas: 4
-  revisionHistoryLimit: 6
   selector:
     matchLabels:
       app: test-api
