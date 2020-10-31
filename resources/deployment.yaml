@@ -1,17 +1,20 @@
-apiVersion: batch/v1
-kind: Job
+apiVersion: apps/v1
+kind: Deployment
 metadata:
   name: test-api
 spec:
-  backoffLimit: 3
+  replicas: 4
+  revisionHistoryLimit: 6
+  selector:
+    matchLabels:
+      app: test-api
   template:
     metadata:
       labels:
         app: test-api
     spec:
-      restartPolicy: OnFailure
       containers:
-        - image: olehzahnitko/argocd:1.3.6
+        - image: olehzahnitko/argocd:1.3.5
           name: test-api
           ports:
             - containerPort: 1700
