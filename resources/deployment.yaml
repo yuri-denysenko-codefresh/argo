@@ -14,7 +14,7 @@ spec:
         app: test-api
     spec:
       containers:
-        - image: olehzahnitko/argocd:1.6.1
+        - image: olehzahnitko/argocd:1.6.2
           name: test-api
           ports:
             - containerPort: 1700
