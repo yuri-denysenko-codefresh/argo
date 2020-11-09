@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: test-api
 spec:
-  replicas: 6
+  replicas: 5
   revisionHistoryLimit: 6
   selector:
     matchLabels:
