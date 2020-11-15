@@ -21,8 +21,8 @@ spec:
           readinessProbe:
             exec:
               command:
-              - sleep
-              - "300"
+                - sleep
+                - "300"
             failureThreshold: 3
             periodSeconds: 10
             successThreshold: 1
