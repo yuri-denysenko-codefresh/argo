@@ -1,5 +1,0 @@
-# argoаі
-
-аві
-fdsfsd
-fsfds
