@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: yurii-test-api
+spec:
+  replicas: 5
+  revisionHistoryLimit: 6
+  selector:
+    matchLabels:
+      app: yurii-test-api
+  template:
+    metadata:
+      labels:
+        app: yurii-test-api
+    spec:
+      containers:
+        - image: yuriidenysenkocodefresh/hello-world:v1.0
+          name: yurii-test-api
+          ports:
+            - containerPort: 8080
+#           readinessProbe:
+#             exec:
+#               command:
+#                 - sleep
+#                 - "300"
+#             failureThreshold: 3
+#             periodSeconds: 10
+#             successThreshold: 1
+#             timeoutSeconds: 1
